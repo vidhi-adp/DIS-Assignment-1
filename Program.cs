@@ -62,11 +62,10 @@ namespace Assignment1_Spring2020
                 int t1_09 = Convert.ToInt32(t1[0]);                     // First value of t1 from string to integer
                 int t1_15 = Convert.ToInt32(t1[1]);                     // Second value of t1 from string to integer
                 int t1_35 = Convert.ToInt32(t1_st35);                   // First part of t1_st35 from string to integer
-                Console.WriteLine(t1_09 + " " + t1_15 + " " + t1_35);   // Display time as integer values
                 if (t1_PM == "PM")                                      // If earth time is in PM, add 12 to hours
                     t1_09 += 12;
                 int t1_s = (t1_09 * 60 * 60) + (t1_15 * 60) + (t1_35);  //Convert earth time to seconds
-                Console.WriteLine(t1_s);
+                Console.WriteLine(t1_s+" seconds");
 
                 int t1_U = t1_s / (60 * 45);                            // Convert earth seconds to 36U in variable t1_U
                 int t1_mod_U = t1_s % (60 * 45);                        // Remainder in variable t1_mod_U 
@@ -242,8 +241,9 @@ namespace Assignment1_Spring2020
             PrintSeries(n2);
 
             string s = "09:15:35PM";
-            string t = UsfTime(s);
             Console.WriteLine("\nQ3 - Printed a new time zone with U-36, S-45 and F-60 -\n");
+            Console.WriteLine("09:15:35 PM");
+            string t = UsfTime(s);
             Console.WriteLine(t);
 
             int n3 = 110;
