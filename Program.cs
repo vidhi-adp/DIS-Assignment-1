@@ -11,6 +11,9 @@ namespace Assignment1_Spring2020
 {
     class Program
     {
+        // Time Taken: 40 minutes
+        // Learnings : Built clear understanding of a method calling itself and recursion
+        // Recommendation : Could try on building the function in one method 
         private static void PrintPattern(int n)
         {
             try
@@ -38,6 +41,10 @@ namespace Assignment1_Spring2020
             Console.Write(j + " ");     // Prints integers until n is not 0 on the same line
             PrintEachLine(j - 1);       // Print integer value, deccrement and calls itself
         }
+        
+        // Time Taken: 30 minutes
+        // Learnings : Learnt about the logic of printing numbers based on different logics as required
+        // Recommendation : Can work on more complex patterns for the next round
         private static void PrintSeries(int n2)
         {
             try
@@ -55,6 +62,10 @@ namespace Assignment1_Spring2020
                 Console.WriteLine("Exception Occured while computing printSeries");
             } 
         }
+        
+        // Time Taken: 40 minutes
+        // Learnings : Familiarised myself with the substring and split functions
+        // Recommendation : Liked the idea of explporing hypothetical timezone 
         public static string UsfTime(string s)
         {
             try
@@ -84,6 +95,10 @@ namespace Assignment1_Spring2020
             }
             return null;
         }
+        
+        // Time Taken: 20 minutes
+        // Learnings : Handled various cases based on for and if loops
+        // Recommendation : Could reduce if loops and consolidate the code
         public static void UsfNumbers(int n3, int k)
         {
             try
@@ -140,6 +155,10 @@ namespace Assignment1_Spring2020
                 Console.WriteLine("Exception occured while computing UsfNumbers()");
             }
         }
+        
+        // Time Taken: 1 hour
+        // Learnings : Familiarised myself with the list, concatenating words and checking palindrome thereafter
+        // Recommendation : Was able to go astep ahead of just checking single words and can try with three words as well
         static Boolean isPalindrome(string a)
         {
             int len = a.Length;                                              // Put length of each pair of words into variable len
@@ -178,7 +197,10 @@ namespace Assignment1_Spring2020
                 Console.WriteLine("Exception occured while computing PalindromePairs()");
             }
         }
-
+        
+        // Time Taken:3 hours
+        // Learnings : Learnt about the logic of nim game and was able to implement it to quite an extent but require more code optimization
+        // Recommendation : Would like to receive the ideal logic and guage better understanding
         public static void Stones(int n4)
         {
             try
