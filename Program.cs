@@ -156,7 +156,7 @@ namespace Assignment1_Spring2020
             }
         }
         
-        // Time Taken: 1 hour
+        // Time Taken: 2 hour
         // Learnings : Familiarised myself with the list, concatenating words and checking palindrome thereafter
         // Recommendation : Was able to go astep ahead of just checking single words and can try with three words as well
         static Boolean isPalindrome(string a)
@@ -198,7 +198,7 @@ namespace Assignment1_Spring2020
             }
         }
         
-        // Time Taken:3 hours
+        // Time Taken:7 hours
         // Learnings : Learnt about the logic of nim game and was able to implement it to quite an extent but require more code optimization
         // Recommendation : Would like to receive the ideal logic and guage better understanding
         public static void Stones(int n4)
